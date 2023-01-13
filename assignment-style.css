@@ -1,0 +1,70 @@
+*{
+    font-family: Work Sans;
+}
+
+.header{
+    background-color: aliceblue;
+    background-image: url('../assignment-1/new-year-new-me-main/banner1.png');
+    height: 808px;
+}
+
+nav{
+    justify-content: right;
+    margin: 0 230px;
+}
+
+.head-title{
+font-size: 65px;
+font-weight: 700;
+line-height: 76px;
+letter-spacing: 0em;
+text-align: right;
+}
+
+nav.container-head{
+    margin-top: 216px;
+    margin: 216px;
+}
+
+.head-description{
+    text-align: right;
+    font-weight: 400;
+    font-size: 16px;
+}
+input.btn-primary{
+    float: right;
+}
+
+.btn-primary {
+    height: 64px;
+    width: 160px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    justify-content: right;
+    justify-items: right;
+}
+
+.section {
+    display: flex;
+}
+
+.profile {
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 370px;
+    margin-right: 322px;
+    justify-content: right;
+    text-align: right;
+}
+
+.profile-description{
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+
+.options {
+    font-weight: 349;
+    font-size: 26px;
+}

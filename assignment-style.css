@@ -1,12 +1,13 @@
 *{
     font-family: Work Sans;
+    align-items: center;
 }
 
 .header{
         background-image: url('assignment-1\new-year-new-me-main\images\banner1.png');
         width: 1600px;
         background-repeat: no-repeat;
-        }
+}
 
 nav{
     justify-content: right;
@@ -43,8 +44,6 @@ input.btn-primary{
     border-radius: 5px;
     border: none;
     background-color: orange;
-    justify-content: right;
-    justify-items: right;
 }
 
 .section {
@@ -81,12 +80,108 @@ input.btn-primary{
     font-weight: 700;
     font-size: 40px;
     padding-left: 711px;
+    margin-top: 130px;
 }
 
 .section-plan{
     display: flex;
+    width: 1140px;
     justify-content: space-around;
-    width: 1141px;
+    text-align: center;
     padding-left: 230px;
+}
+.background-image{
+    position: relative;
+}
+
+#parent{
+	position: relative;
+}
+
+.gradient2{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.background-image img{
+    background-image: url(../assignment-1/new-year-new-me-main/images/gradient2.png);
+    background-size: contain;
+	background-repeat: no-repeat;
+    width: 1140px;
+    padding-left: 230px;
+    margin-top: 130px;
+}
+
+.background-text{
+    position: absolute;
+    top: 100px;
+    padding-left: 294px;
+    padding-right: 847px;
+    justify-content: right;
+}
+
+.background-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+}
+
+.background-style{
+    margin-top: 59px;
+    padding-right: 847px;
+}
+.background-button{
+    align-items: center;
+    justify-content: right;
+    color: orange;
+    background-color: white;
+    height: 64px;
+    width: 160px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.future{
+    display: flex;
+    background-color: #151414;
+    justify-content: space-between;
+    width: 1600px;
+}
+.future-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #fff;
+}
+.future-email{
+    border: none;
+    border-radius: 5px;
+}
+
+.future-submit{
     padding-right: 229px;
+}
+
+.future-details{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.future-description{
+    margin-top: 130px;
+    margin-bottom: 130px;
+    padding-left: 230px;
+    padding-right: 500px;
+    text-align: left;
+}
+
+.future-title{
+    display: flex;
+}
+
+.plan-title{
+    color: #fff;
 }

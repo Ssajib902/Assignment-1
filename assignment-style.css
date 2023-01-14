@@ -30,7 +30,7 @@
 	width: 160px;
 	height: 64px;
 	text-align: center;
-	background-color: orange;
+	background-color: orangered;
 	color: #fff;
 	border: none;
 } 
@@ -64,7 +64,7 @@ input.btn-primary{
     font-size: 20px;
     border-radius: 5px;
     border: none;
-    background-color: orange;
+    background-color: orangered;
 }
 
 .section {
@@ -153,28 +153,32 @@ input.btn-primary{
     justify-content: right;
 }
 
-.background-title{
-    font-weight: 700;
-    font-size: 40px;
-    color: #fff;
-}
-
 .background-style{
     margin-top: 59px;
     padding-right: 847px;
 }
-.background-button{
-    align-items: center;
-    justify-content: right;
-    color: orange;
-    background-color: white;
-    height: 64px;
+
+.background-title{
+    margin-top: 59px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    padding-right: 230px;
+}
+
+.button2{
+    font-size: 20px;
+    font-weight: 600;
     width: 160px;
+    height: 64px;
+    color: orangered;
+    background-color: #fff;
     border: none;
     border-radius: 5px;
-    font-size: 20px;
-    font-weight: 400;
 }
+
+
+
 
 .future{
     display: flex;
@@ -216,4 +220,25 @@ input.btn-primary{
 
 .plan-title{
     color: #fff;
+}
+
+.sub-email{
+    width: 325px;
+    height: 64px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #151414;
+}
+
+.future-subscribe{
+    margin-top: 30px;
+    width: 160px;
+    height: 64px;
+    color: orangered;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
 }
